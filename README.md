@@ -93,17 +93,12 @@ This Flutter frontend follows the principles of Clean Architecture and Clean Cod
      - Signal strength (RSSI).
    - Seamless integration of simulated devices alongside real devices.
 
-4. **Database Export**:
-
-   - Export SQLite databases from the app to the device's storage.
-   - Option to specify custom export paths for debugging or analysis purposes.
-
-5. **UI Enhancements**:
+4. **UI Enhancements**:
 
    - Responsive design compatible with multiple screen sizes.
    - Modern and clean UI adhering to Material Design principles.
 
-6. **Clean Architecture**:
+5. **Clean Architecture**:
 
    - Code structured into three layers:
      - `Domain`: Business logic and entities.
@@ -111,11 +106,7 @@ This Flutter frontend follows the principles of Clean Architecture and Clean Cod
      - `Presentation`: UI and state management.
    - Use of `GetX` for efficient state management and dependency injection.
 
-7. **Multilingual Support**:
-
-   - Easy integration of translations with `.tr` for seamless localization.
-
-8. **Project Filtering**:
+6. **Project Filtering**:
 
    - Dynamic filtering of projects by:
      - Name.
@@ -123,30 +114,29 @@ This Flutter frontend follows the principles of Clean Architecture and Clean Cod
      - Agency.
    - Integrated search functionality for better user experience.
 
-9. **Edit and Delete Projects**:
+7. **Edit and Delete Projects**:
 
    - Real-time UI updates for editing or deleting projects.
    - Smooth animations for transitions during user interactions.
 
-10. **Error Handling**:
+8. **Error Handling**:
 
-    - Comprehensive error handling for:
-      - Bluetooth-related issues (e.g., Bluetooth not enabled).
-      - Database export errors.
-      - Connection failures.
-    - User-friendly error messages and prompts.
+   - Comprehensive error handling for:
+     - Bluetooth-related issues (e.g., Bluetooth not enabled).
+     - Database export errors.
+     - Connection failures.
+   - User-friendly error messages and prompts.
 
-11. **Theming**:
-    - Dynamic theming based on user preferences or agency settings.
+9. **Theming**:
+
+   - Dynamic theming based on user preferences or agency settings.
+
+10. **Hero Animations**:
+
+    - Seamless transitions across the app using Flutter's `Hero` widget.
+    - Applied to project images and key UI elements for smooth visual effects:
+      - Project details open with a shared image animation.
+      - Consistent transitions between list views and detail views.
+    - Enhances user experience by providing visual continuity and a polished feel throughout the app.
 
 ---
-
-## How to Contribute
-
-We welcome contributions to this project! Follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
