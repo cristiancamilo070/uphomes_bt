@@ -41,8 +41,10 @@ class HomePage extends GetView<HomeController> {
           height: 370,
           width: double.infinity,
           fit: BoxFit.cover,
-          placeholder: (context, url) =>
-              const Center(child: CircularProgressIndicator()),
+          placeholder: (context, url) => Center(
+              child: CircularProgressIndicator(
+            color: AppTheme.colors.appPrimary,
+          )),
           errorWidget: (context, url, error) =>
               const Center(child: Icon(Icons.error)),
         ),
@@ -280,14 +282,17 @@ class HomePage extends GetView<HomeController> {
       final themeController = Get.find<ThemeController>();
 
       if (controller.isLoading.value) {
-        return const Center(child: CircularProgressIndicator());
+        return Center(
+            child: CircularProgressIndicator(
+          color: AppTheme.colors.appPrimary,
+        ));
       }
 
       final projects = controller.filteredProjects;
 
       if (projects.isEmpty) {
-        return const Center(
-          child: Text('No projects found'),
+        return Center(
+          child: const Text('No projects found').paddingSymmetric(vertical: 50),
         );
       }
 
@@ -302,8 +307,8 @@ class HomePage extends GetView<HomeController> {
               ),
               widthSpace10,
               GestureDetector(
-                //    onTap: () => _showAddProjectBottomSheet(context),
-                onTap: () => controller.exportDatabase(),
+                onTap: () => _showAddProjectBottomSheet(context),
+                //onTap: () => controller.exportDatabase(),
                 child: FaIcon(
                   FontAwesomeIcons.solidSquarePlus,
                   size: 40,
@@ -360,8 +365,10 @@ class HomePage extends GetView<HomeController> {
                   height: 200,
                   width: double.infinity,
                   fit: BoxFit.cover,
-                  placeholder: (context, url) =>
-                      const Center(child: CircularProgressIndicator()),
+                  placeholder: (context, url) => Center(
+                      child: CircularProgressIndicator(
+                    color: AppTheme.colors.appPrimary,
+                  )),
                   errorWidget: (context, url, error) =>
                       const Center(child: Icon(Icons.error)),
                 ),

@@ -109,23 +109,23 @@ class HomeController extends BaseGetxController {
     );
   }
 
-  Future<void> exportDatabase() async {
-    try {
-      final sourcePath = await getDatabasesPath();
-      final sourceFile = join(sourcePath, 'database.db');
+  // Future<void> exportDatabase() async {
+  //   try {
+  //     final sourcePath = await getDatabasesPath();
+  //     final sourceFile = join(sourcePath, 'database.db');
 
-      if (!File(sourceFile).existsSync()) {
-        throw FileSystemException(
-            'El archivo de base de datos fuente no existe', sourceFile);
-      }
-      const destinationPath = '/Users/cristiancruz/Documents/database12345.db';
+  //     if (!File(sourceFile).existsSync()) {
+  //       throw FileSystemException(
+  //           'El archivo de base de datos fuente no existe', sourceFile);
+  //     }
+  //     const destinationPath = '/Users/cristiancruz/Documents/database12345.db';
 
-      final file = File(sourceFile);
-      await file.copy(destinationPath);
+  //     final file = File(sourceFile);
+  //     await file.copy(destinationPath);
 
-      print('Base de datos exportada exitosamente a $destinationPath');
-    } catch (e) {
-      print('Error exportando la base de datos: $e');
-    }
-  }
+  //     print('Base de datos exportada exitosamente a $destinationPath');
+  //   } catch (e) {
+  //     print('Error exportando la base de datos: $e');
+  //   }
+  // }
 }

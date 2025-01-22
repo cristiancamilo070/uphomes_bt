@@ -84,7 +84,7 @@ class BluetoothController extends BaseGetxController {
       });
 
       closeLoading();
-      showSuccessMessage('Éxito', 'Conectado a un Dispositivo}');
+      showSuccessMessage('Éxito', 'Conectado a un Dispositivo');
     } catch (e) {
       closeLoading();
       showErrorMessage('Error', 'No se pudo conectar al dispositivo: $e');
