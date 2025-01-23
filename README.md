@@ -1,6 +1,6 @@
 # Samay UpHomes test
 
-[![Flutter Version](https://img.shields.io/badge/Flutter-3.10.5-blue?logo=flutter)](https://flutter.dev)
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.27.1-blue?logo=flutter)](https://flutter.dev)
 [![License](https://img.shields.io/github/license/cristiancamilo070/uphomes_bt)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Web-orange)](https://flutter.dev)
 [![Last Commit](https://img.shields.io/github/last-commit/cristiancamilo070/uphomes_bt)](https://github.com/cristiancamilo070/uphomes_bt/commits/main)
