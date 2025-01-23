@@ -31,34 +31,34 @@ flutter run
 # Frontend Overview
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="assets/screenshots/0.jpg" alt="Screenshot 1" width="180" height="350">
-  <img src="assets/screenshots/1.jpg" alt="Screenshot 2" width="180" height="350">
-  <img src="assets/screenshots/2.jpg" alt="Screenshot 3" width="180" height="350">
+  <img src="assets/screenshots/0.jpg" alt="Screenshot 1" width="170" height="350">
+  <img src="assets/screenshots/1.jpg" alt="Screenshot 2" width="170" height="350">
+  <img src="assets/screenshots/2.jpg" alt="Screenshot 3" width="170" height="350">
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="assets/screenshots/3.jpg" alt="Screenshot 4" width="180" height="350">
-  <img src="assets/screenshots/4.jpg" alt="Screenshot 5" width="180" height="350">
-  <img src="assets/screenshots/5.jpg" alt="Screenshot 6" width="180" height="350">
+  <img src="assets/screenshots/3.jpg" alt="Screenshot 4" width="170" height="350">
+  <img src="assets/screenshots/4.jpg" alt="Screenshot 5" width="170" height="350">
+  <img src="assets/screenshots/5.jpg" alt="Screenshot 6" width="170" height="350">
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="assets/screenshots/6.jpg" alt="Screenshot 7" width="180" height="350">
-  <img src="assets/screenshots/7.jpg" alt="Screenshot 8" width="180" height="350">
-  <img src="assets/screenshots/8.jpg" alt="Screenshot 9" width="180" height="350">
+  <img src="assets/screenshots/6.jpg" alt="Screenshot 7" width="170" height="350">
+  <img src="assets/screenshots/7.jpg" alt="Screenshot 8" width="170" height="350">
+  <img src="assets/screenshots/8.jpg" alt="Screenshot 9" width="170" height="350">
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="assets/screenshots/9.jpg" alt="Screenshot 10" width="180" height="350">
-  <img src="assets/screenshots/10.jpg" alt="Screenshot 11" width="180" height="350">
-  <img src="assets/screenshots/11.jpg" alt="Screenshot 12" width="180" height="350">
+  <img src="assets/screenshots/9.jpg" alt="Screenshot 10" width="170" height="350">
+  <img src="assets/screenshots/10.jpg" alt="Screenshot 11" width="170" height="350">
+  <img src="assets/screenshots/11.jpg" alt="Screenshot 12" width="170" height="350">
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="assets/screenshots/12.jpg" alt="Screenshot 13" width="180" height="350">
-  <img src="assets/screenshots/13.jpg" alt="Screenshot 14" width="180" height="350">
-  <img src="assets/screenshots/14.jpg" alt="Screenshot 15" width="180" height="350">
+  <img src="assets/screenshots/12.jpg" alt="Screenshot 13" width="170" height="350">
+  <img src="assets/screenshots/13.jpg" alt="Screenshot 14" width="170" height="350">
+  <img src="assets/screenshots/14.jpg" alt="Screenshot 15" width="170" height="350">
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="assets/screenshots/15.jpg" alt="Screenshot 16" width="180" height="350">
-  <img src="assets/screenshots/17.jpg" alt="Screenshot 17" width="180" height="350">
-  <img src="assets/screenshots/18.jpg" alt="Screenshot 18" width="180" height="350">
+  <img src="assets/screenshots/15.jpg" alt="Screenshot 16" width="170" height="350">
+  <img src="assets/screenshots/17.jpg" alt="Screenshot 17" width="170" height="350">
+  <img src="assets/screenshots/18.jpg" alt="Screenshot 18" width="170" height="350">
 </div>
 
 ## Clean Architecture and Code
