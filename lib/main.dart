@@ -55,7 +55,7 @@ void main() async {
             systemOverlayStyle: SystemUiOverlayStyle.dark,
           ),
         ),
-        title: 'GitHub commit history',
+        title: 'Uphomes',
         builder: EasyLoading.init(),
         translations: LocalizationRepository(),
         defaultTransition: Transition.rightToLeft,
