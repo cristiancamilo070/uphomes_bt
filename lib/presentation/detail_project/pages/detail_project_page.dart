@@ -32,6 +32,7 @@ class DetailProjectPage extends GetView<DetailProjectController> {
                   _bodyWidgets(context),
                   heightSpace16,
                   _bluetoothSection(context),
+                  // BluetoothSectionWithBloc(),
                   heightSpace100,
                 ],
               ),
