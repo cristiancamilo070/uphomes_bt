@@ -1,7 +1,5 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'dart:io';
-
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:samay_test/core/controllers/base_getx_controller.dart';
@@ -10,8 +8,6 @@ import 'package:samay_test/domain/models/project_model.dart';
 import 'package:samay_test/domain/use_cases/agency_use_cases/get_all_agencies_use_case.dart';
 import 'package:samay_test/domain/use_cases/project_use_cases/create_project_use_case.dart';
 import 'package:samay_test/domain/use_cases/project_use_cases/get_all_projects_use_case.dart';
-import 'package:sqflite/sqflite.dart';
-import 'package:path/path.dart';
 
 class HomeController extends BaseGetxController {
   final GetAllAgenciesUseCase getAllAgenciesUseCase = Get.find();
